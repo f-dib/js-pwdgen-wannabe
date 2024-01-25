@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+.card {
+    width: 40vw;
+
+    padding: 30px;
+    margin: auto;
+
+    background-color: black;
+
+    border-radius: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    gap: 5px;
+}
+
+.image {
+    width: 10vw;
+
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+
+    padding-right: 20px;
+
+    color: #ff9000;
+}
+
+.container {
+    width: 30vw;
+    height: 4vh;
+
+    background-color: white;
+    border: 1px solid #ff9000;
+    border-radius: 3px;
+}
+
+.fav {
+    text-align: start;
+}
